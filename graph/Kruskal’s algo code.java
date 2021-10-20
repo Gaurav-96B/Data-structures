@@ -46,7 +46,7 @@ public class kruskals_temp {
 	  for(int i =0; i <e; i++) {
 		  if(k == v-1) break;
 
-		  Edge currEdge = inp[i];
+          Edge currEdge = inp[i];
           int src_parent = find(currEdge.src, parent);
           int dst_parent = find(currEdge.dst, parent);
 		  
